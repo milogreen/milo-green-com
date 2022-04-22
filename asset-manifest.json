@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6136e45.css",
-    "main.js": "/static/js/main.18f93206.js",
-    "static/js/787.25ea2f60.chunk.js": "/static/js/787.25ea2f60.chunk.js",
-    "index.html": "/index.html",
-    "main.c6136e45.css.map": "/static/css/main.c6136e45.css.map",
-    "main.18f93206.js.map": "/static/js/main.18f93206.js.map",
-    "787.25ea2f60.chunk.js.map": "/static/js/787.25ea2f60.chunk.js.map"
+    "main.css": "/milo-green-com/static/css/main.c6136e45.css",
+    "main.js": "/milo-green-com/static/js/main.440aebd9.js",
+    "static/js/787.25ea2f60.chunk.js": "/milo-green-com/static/js/787.25ea2f60.chunk.js",
+    "index.html": "/milo-green-com/index.html",
+    "main.c6136e45.css.map": "/milo-green-com/static/css/main.c6136e45.css.map",
+    "main.440aebd9.js.map": "/milo-green-com/static/js/main.440aebd9.js.map",
+    "787.25ea2f60.chunk.js.map": "/milo-green-com/static/js/787.25ea2f60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6136e45.css",
-    "static/js/main.18f93206.js"
+    "static/js/main.440aebd9.js"
   ]
 }
