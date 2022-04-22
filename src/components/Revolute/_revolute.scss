@@ -1,0 +1,8 @@
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/components/aspect-ratio";
+.placeholder {
+	background-color: $layer;
+}
+.video-block__container {
+	background: linear-gradient( #002B36 0%, #002B36 50%, #FDF6E3 50%,#FDF6E3 100%)
+}

@@ -1,0 +1,23 @@
+@use "@carbon/react/scss/spacing" as *;
+@use "../../theme.scss" as *;
+
+.cta {
+	background-color: $background;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $border-strong;
+}
+
+.cta__content {
+	padding: $spacing-05;
+}
+
+.cta__eyebrow {
+	margin-bottom: $spacing-03;
+	color: $on-bg-secondary;
+}
+.cta__icon {
+	position: absolute;
+	bottom: $spacing-05;
+	color: $interactive;
+}

@@ -1,0 +1,12 @@
+@use "@carbon/react/scss/spacing" as *;
+
+.feature-paragraph {
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-weight: 300;
+}
+
+.content-item {
+	padding-top: $spacing-07;
+	padding-bottom: $spacing-07;
+}

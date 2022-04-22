@@ -1,0 +1,10 @@
+@use "../../theme.scss" as *;
+
+.layer {
+	background-color: $layer;
+	color: $on-layer-primary;
+	
+	img {
+		background-color: $background;
+	}
+}

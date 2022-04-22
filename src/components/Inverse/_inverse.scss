@@ -1,0 +1,5 @@
+ @use "../../theme.scss" as *;
+.inverse {
+	background: $background-inverse;
+	color: $on-inverse-primary;
+}

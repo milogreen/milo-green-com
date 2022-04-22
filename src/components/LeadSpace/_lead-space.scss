@@ -1,0 +1,18 @@
+@use "@carbon/react/scss/components/button";
+@use "@carbon/react/scss/spacing" as *;
+
+.lead-space {
+	height: 480px;
+	padding: $spacing-07;
+	position: relative;
+}
+
+.lead-space__r1 {
+	height: $spacing-12*2;
+}
+
+.lead-space__r2 {
+	position: absolute;
+	padding-bottom: $spacing-07;
+	bottom: 0;
+}

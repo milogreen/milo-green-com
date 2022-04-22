@@ -1,0 +1,17 @@
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/spacing" as *;
+@use "../../index.scss";
+
+.resume-section {
+	padding-top: $spacing-07;
+	padding-bottom: $spacing-07;
+}
+
+.main-content {
+	padding-top: $spacing-05;
+	padding-bottom: $spacing-05;
+}
+
+.work-date {
+	color: $on-bg-secondary;
+}

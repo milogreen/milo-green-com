@@ -1,0 +1,14 @@
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/spacing" as *;
+
+
+.position {
+	margin-bottom: $spacing-07;
+}
+
+.dates {
+	color: $on-bg-secondary;
+}
+img {
+	margin-bottom: $spacing-07;
+}

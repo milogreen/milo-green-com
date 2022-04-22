@@ -1,0 +1,7 @@
+@use "@carbon/react/scss/spacing" as *;
+@use "../../theme.scss" as *;
+
+.content-item {
+	padding-top: $spacing-07;
+	padding-bottom: $spacing-07;
+}

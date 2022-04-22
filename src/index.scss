@@ -1,0 +1,110 @@
+@use "@carbon/react/scss/spacing" as *;
+@use "@carbon/react/scss/grid";
+@use "./theme.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+ 
+$plex-sans: 'Ibm Plex Sans';
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: $plex-sans;
+}
+
+
+body {
+	background: $background;
+	color: $on-bg-primary;
+}
+
+h1 {
+	font-size: 92px;
+	line-height: 102px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 54px;
+	line-height: 64px;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+a {
+	color: $on-bg-primary
+}
+
+ul {
+	margin-bottom: $spacing-06;
+}
+
+ul li::before {
+  content: "\2014";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $on-bg-secondary; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 0.5em; /* Also needed for space (tweak if needed) */
+  padding-right: 0.5em;
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+img {
+	width: 100%;
+	height: auto;
+	background-color: $layer;
+}
+
+body {
+	.label-01 {
+		font-size: 0.75rem;
+		line-height: 1rem;
+		letter-spacing: 0.32px;
+	}
+
+	.label-02 {
+		font-size: 0.875rem;
+		line-height: 1.125rem;
+		letter-spacing: 0.16px;
+	}
+
+	.content-item {
+		padding-top: $spacing-07;
+		padding-bottom: $spacing-07;
+	}
+	.content-group {
+		margin-top: $spacing-07;
+		margin-bottom: $spacing-09;
+	}
+	
+	.content-section {
+		padding-top: $spacing-09;
+		padding-bottom: $spacing-10;
+	}
+}

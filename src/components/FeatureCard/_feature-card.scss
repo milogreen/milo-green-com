@@ -1,0 +1,11 @@
+@use "@carbon/react/scss/spacing" as *;
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/grid";
+
+.feature-card {
+	background-color: $layer;
+	margin-top: $spacing-05;
+	margin-bottom:$spacing-05;
+	background-size: cover;
+}
+

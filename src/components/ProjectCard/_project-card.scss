@@ -1,0 +1,32 @@
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/spacing" as *;
+
+
+.project-card {
+	position: absolute;
+	top: 0;
+	bottom: $spacing-05;
+	left: $spacing-05;
+	right: $spacing-05;
+	background-color: $background;
+	border: 1px;
+	border-style:  solid;
+	border-color: $border-subtle;
+	padding: 0;
+}
+
+.project-card__copy {
+	padding-left: $spacing-05;
+	padding-right: $spacing-05;
+}
+
+.project-card__heading {
+	margin-top: $spacing-05;
+	margin-bottom: $spacing-05;
+}
+
+.project-card__icon {
+	position: absolute;
+	bottom: $spacing-05;
+	color: $interactive;
+}

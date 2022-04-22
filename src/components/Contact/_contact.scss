@@ -1,0 +1,11 @@
+@use "@carbon/react/scss/components/form";
+@use "@carbon/react/scss/components/text-input";
+@use "@carbon/react/scss/components/text-area";
+@use "@carbon/react/scss/components/stack";
+@use "../../theme.scss" as *;
+
+.cds--text-input__field-wrapper {
+	border-style: solid;
+	border-width: 1px;
+	border-color: $border-strong;
+}

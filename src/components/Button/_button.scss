@@ -1,0 +1,14 @@
+@use "../../theme.scss" as *;
+@use "@carbon/react/scss/spacing" as *;
+
+.btn {
+	background-color: $interactive;
+	height: $spacing-09;
+	padding-left: $spacing-05;
+	padding-right: $spacing-10;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	a {
+		color: $on-color;
+	}
+}
