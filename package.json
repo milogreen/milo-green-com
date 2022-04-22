@@ -1,7 +1,7 @@
 {
   "name": "vanilla",
   "version": "0.1.0",
-  "homepage": "https://milogreen.github.io/milo-green-com",
+  "homepage": "https://milogreen.github.io",
   "private": true,
   "dependencies": {
     "@carbon/react": "^1.0.3",
